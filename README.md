@@ -1,2 +1,2 @@
-# i2dl
-Introduction to Deep Learning
+# Deep Learning 2020
+Aprendizado de Máquina e Aprendizagem Profunda / 2020
