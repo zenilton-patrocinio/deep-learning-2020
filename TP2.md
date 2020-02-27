@@ -27,7 +27,7 @@ Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](http
 
 ### Trabalhando remotamente na Google Cloud  usando CoLaboratory
 
-Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.
+Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. <!--Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.-->
 
 ### Trabalhando localmente
 Para você trabalhar localmente, deve seguir os passos abaixo:
@@ -48,12 +48,12 @@ o treinamento um pouco lento na parte final. Contudo, nosso código de referênc
 em um laptop dual-core sem GPU (portanto, é plenamento viável fazê-lo sem a necessidade de GPU).
 
 **Instalar Python 3.5+:**
-Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/).
+Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). <!--Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/).-->
 
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
 
-Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](https://drive.google.com/file/d/1q4OF2MBQ7ZhF6t5f8lcmDpy1iblzsacR/view?usp=sharing) e execute o seguinte:
+Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](https://drive.google.com/file/d/1_Tf1WBBDm0VPETisCye_K4LpJswEh4DC/view?usp=sharing) e execute o seguinte:
 
 ```bash
 cd TP2
@@ -136,32 +136,30 @@ você será informado.
 Depois de você obter o conjunto de dados CIFAR-10, você deve iniciar o notebook IPython 
 (ou Jupyter) a partir do diretório `TP2`, usando o comando `jupyter notebook`.
 
-Caso você não esteja familiarizado com notebooks IPython, veja na 
-[página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) 
-para maiores informações.
+<!--Caso você não esteja familiarizado com notebooks IPython, veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.-->
 
-### Q1: Rede Neural Profunda (25 pontos)
+### Q1: Rede Neural Profunda (25%)
 
 O notebook  **FullyConnectedNets.ipynb** irá guiá-lo de forma a realizar a implementação de 
 uma rede em camadas completamente conectadas de profundidade arbitrária. Na otimização desses 
 modelos, você irá implementar diversas regras de atualização encontradas na literatura. 
 
-### Q2: *Batch Normalization* (25 pontos)
+### Q2: *Batch Normalization* (25%)
 
 O notebook **BatchNormalization.ipynb** irá guiá-lo de forma a realizar a implementação de 
 *batch normalization* e de sua utilização no treinamento de redes neurais profundas completamente 
 conectadas.
 
-### Q3: *Dropout* (10 pontos)
+### Q3: *Dropout* (10%)
 
 O notebook **Dropout.ipynb** irá guiá-lo de forma a realizar a implementação de 
 *dropout* e explorar seus efeitos na generalização dos modelos.
 
-### Q4: Rede Convolucional (30 pontos)
+### Q4: Rede Convolucional (30%)
 O notebook **ConvolutionalNetworks.ipynb** irá guiá-lo de forma a realizar a implementação de
 várias camadas comumente utilizadas em redes convolucionais.
 
-### Q5: Tensorflow on CIFAR-10 (10 pontos)
+### Q5: Tensorflow on CIFAR-10 (10%)
 
 O notebook **TensorFlow.ipynb** irá guiá-lo de forma a explorar um dos mais popular e poderosos
 *frameworks* para apredizagem profunda, culminando com o treinamento de uma rede convolucional 
