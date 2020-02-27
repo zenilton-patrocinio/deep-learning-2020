@@ -38,7 +38,7 @@ Entretanto, para a parte final, que utiliza TensorFlow, o uso de uma GPU pode si
 de velocidade de treinamento e teste. Assim, você pode utilizar o [Google Colab](https://colab.research.google.com/), 
 lembrando-se definir uma instância com Python 3.x e GPU. Caso você possua sua própria NVIDIA GPU e deseje utilizá-la,
 deverá instalar os *drivers* para sua GPU, além do CUDA Toolkit e do cuDNN SDK, **antes** de realizar a instalação do
-Tensorflow. Maiores informações podem ser encontradas na [Documentação de instalação do Tensorflow] (https://www.tensorflow.org/install/). 
+Tensorflow. Maiores informações podem ser encontradas na [Documentação de instalação do Tensorflow](https://www.tensorflow.org/install/). 
 
 **Independentemente disso, é recomendável que você sempre realize a instalação da versão de Tensorflow para 
 CPU antes de instalar a versão para GPU.** 
