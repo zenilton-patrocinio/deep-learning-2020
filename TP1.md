@@ -24,13 +24,13 @@ Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](http
 
 ### Trabalhando remotamente na Google Cloud  usando CoLaboratory
 
-Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.
+Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. <!--Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.-->
 
 ### Trabalhando localmente
 Para você trabalhar localmente, deve seguir os passos abaixo:
 
 **Instalar Python 3.5+:**
-Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/).
+Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). <!--Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/).-->
 
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
@@ -81,30 +81,30 @@ cd dl/datasets
 ### Iniciar IPython:
 Depois de você obter o conjunto de dados CIFAR-10, você deve iniciar o notebook IPython (ou Jupyter) a partir do diretório `TP1`, usando o comando `jupyter notebook`.
 
-Caso você não esteja familiarizado com notebooks IPython, veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações. .
+<!--Caso você não esteja familiarizado com notebooks IPython, veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.-->
 
-### Q1: Classificador k-Nearest Neighbor (20 pontos)
+### Q1: Classificador k-Nearest Neighbor (20%)
 
 O notebook  **knn.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador kNN.
 
-### Q2: Treinamento de um SVM (25 pontos)
+### Q2: Treinamento de um SVM (25%)
 
 O notebook **svm.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador SVM.
 
-### Q3: Implementação  de um classificar Softmax (20 pontos)
+### Q3: Implementação  de um classificar Softmax (20%)
 
 O notebook **softmax.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador Softmax.
 
-### Q4: Rede Neural de Duas Camadas (25 pontos)
+### Q4: Rede Neural de Duas Camadas (25%)
 O notebook **two\_layer\_net.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador por meio de uma rede neural de duas camadas.
 
-### Q5: Representações de Alto Nível: Descritores de Imagem (10 pontos)
+### Q5: Representações de Alto Nível: Descritores de Imagem (10%)
 
 O notebook **features.ipynb** irá guiá-lo de forma a realizar este exercício, no qual você irá examinar as melhorias obtidas por meio do uso de representações de alto nível ao invés de se trabalhar diretamente com os valores brutos dos pixels.
 
-### Q6: Bonus: Faça alguma coisa extra! (+10 pontos)
+<!--### Q6: Bonus: Faça alguma coisa extra! (+10 pontos)-->
 
-Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) e utilizando algum código desenvolvido por você. 
+<!--Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) e utilizando algum código desenvolvido por você. -->
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMTMzMzgwMzNdfQ==
